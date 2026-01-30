@@ -1,4 +1,48 @@
-body { margin: 0; font-family: sans-serif; }
-.layout { display: grid; grid-template-columns: 200px 1fr; height: 100vh; }
-.sidebar { border-right: 1px solid #ccc; padding: 16px; }
-.content { padding: 16px; }
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  height: 100vh;
+}
+
+.sidebar {
+  border-right: 1px solid #ccc;
+  padding: 20px;
+  background: #fafafa;
+}
+
+.logo {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #111;
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.menu a:hover {
+  background: #eee;
+}
+
+.content {
+  padding: 24px;
+}
