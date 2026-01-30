@@ -1,0 +1,23 @@
+!doctype html
+html lang=ko
+head
+  meta charset=utf-8 
+  titleMy Pagetitle
+  link rel=stylesheet href=styles.css 
+head
+body
+  div class=layout
+    aside class=sidebar
+      h3MENUh3
+      a href=#TOPa
+      a href=#BBSa
+      a href=#DOODLEa
+    aside
+
+    main class=content
+      h1HELLOh1
+      p사이트 뜨는지 테스트 중p
+    main
+  div
+body
+html
