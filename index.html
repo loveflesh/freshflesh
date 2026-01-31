@@ -2,30 +2,91 @@
 <html lang="ko">
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>freshflesh</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="layout">
+    <!-- LEFT -->
     <aside class="sidebar">
-      <h2 class="logo">freshflesh</h2>
-<nav class="menu">
-  <a class="active" href="#">TOP</a>
-  <a href="#">BBS</a>
-  <a href="#">DOODLE</a>
-  <a href="#">ABOUT</a>
-</nav>
-<hr class="divider" />
-<div class="side-footer">
-  <small>since 2026</small>
-</div>
+      <div class="side-title">freshflesh</div>
+      <nav class="side-menu">
+        <a class="active" href="#/">TOP</a>
+        <a href="#/bbs">BBS</a>
+        <a href="#/doodle">DOODLE</a>
+        <a href="#/about">ABOUT</a>
+      </nav>
+
+      <hr class="side-divider" />
+      <div class="side-small">since 2018</div>
     </aside>
 
-    <main class="content">
-      <h1>Hell-o-WORLD!</h1>
+    <!-- RIGHT -->
+    <main class="main">
+      <header class="hero">
+        <h1 class="hero-title">妄想の案内カフェ…♬</h1>
+        <div class="hero-sub">あなたが望むものはすべてここに！楽に見てみましょう☆</div>
+      </header>
+
+      <div class="pill-line"></div>
+
+      <!-- CENTER BOX -->
+      <section class="center">
+        <div class="board">
+          <!-- left profile box -->
+          <div class="panel profile">
+            <div class="profile-art">
+              <!-- 여기 이미지 넣고 싶으면 img 태그로 교체 -->
+              <!-- <img src="assets/profile.png" alt=""> -->
+            </div>
+            <div class="panel-label">▲ 최신스테이터스…? 아이리(20세)</div>
+          </div>
+
+          <!-- hint/middle -->
+          <div class="panel stack">
+            <div class="stack-item">
+              <div class="bar">사이트입니다…</div>
+              <div class="box"></div>
+            </div>
+
+            <div class="stack-item">
+              <div class="bar">뭔가스테이터스…</div>
+              <div class="box"></div>
+            </div>
+
+            <div class="stack-item">
+              <div class="bar">업데이트로그 ☆</div>
+              <div class="box"></div>
+            </div>
+          </div>
+
+          <!-- right -->
+          <div class="panel pages">
+            <div class="pages-head">페이지(?)설정</div>
+            <div class="pages-inner">
+              <div class="col"></div>
+              <div class="col"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- bottom area -->
+        <div class="bottom">
+          <div class="bottom-left">동맹/CLIQUE/링크입찰★</div>
+          <div class="bottom-mid">오늘의 추천</div>
+
+          <div class="bottom-right">
+            <!-- 캐릭터 이미지 넣기 -->
+            <img class="chibi" src="assets/chibi.png" alt="chibi" />
+          </div>
+        </div>
+
+        <div class="big-blank"></div>
+      </section>
+
+      <script src="app.js"></script>
     </main>
   </div>
-
-  <script src="app.js"></script>
 </body>
 </html>
