@@ -214,36 +214,44 @@ background: #e10000;
 }
 
 
-/* 길찾기 테이블 */
+/* 길찾기 패널 안쪽 */
 .pages-inner{
   padding: 10px;
+  overflow: hidden;
 }
 
+/* 테이블 */
 .navtable{
   width: 100%;
   border-collapse: collapse;
-  table-layout: fixed;
+  table-layout: auto;     /* ✅ fixed 금지 */
   font-size: 12px;
 }
 
+/* 셀 기본 */
 .navtable th,
 .navtable td{
   border: 1px solid #3b3b3b;
   padding: 6px 8px;
   vertical-align: top;
-  background: rgba(255,255,255,0.65);
+  background: rgba(255,255,255,0.85);
+  line-height: 1.4;
+  white-space: normal;    /* ✅ 줄바꿈은 정상 */
+  word-break: keep-all;   /* ✅ 한글은 단어 단위로 */
+  overflow-wrap: anywhere;/* ✅ 너무 긴 건 적당히 감싸기 */
 }
 
-/* 머리글 */
+/* 헤더 */
 .navtable thead th{
   font-family: "jd";
-  background: rgba(255,255,255,0.8);
+  color: #111;
+  background: #fff;
 }
 
-/* 왼쪽(페이지) 폭 */
+/* 왼쪽(페이지) */
 .navtable .nav-l{
-  width: 120px;   /* 필요하면 110~140 사이로 조절 */
-  word-break: break-word;
+  width: 120px;          /* 패널이 좁으니 과하지 않게 */
+  white-space: nowrap;   /* ✅ 페이지명은 한 줄 유지 */
 }
 
 /* 오른쪽(설명) */
@@ -251,14 +259,17 @@ background: #e10000;
   width: auto;
 }
 
-/* 링크 스타일(옛날 감성) */
+/* 링크: 옛날 + 빨강 톤 맞추기 */
 .navtable a{
   color: #0000ee;
   text-decoration: underline;
 }
-.navtable a:visited{
-  color: #551a8b;
-}
+.navtable a:visited{ color:#551a8b; }
 .navtable a:hover{
-  background: #dcdcdc;
+  background: #ffd6d6;   /* ✅ 빨강 톤 hover */
+}
+
+/* 전체 테이블에 약간 레트로 빨강 포인트 */
+.navtable{
+  box-shadow: 0 0 0 1px #e10000 inset;
 }
