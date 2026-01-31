@@ -108,9 +108,18 @@ margin-top:10px;
 border-right:none;
 }
 
+.panel.profile{
+  display: grid;
+  grid-template-rows: 1fr auto;
+  height: 430px; /* stack 높이(430px)랑 맞추면 딱 정렬됨 */
+}
+
+
 /* left profile */
 .profile-art{
-  height:402px;
+height:auto;
+min-height:0;
+overfolw:hidden;
   background: #fafafa;
 }
 .profile-art img{
