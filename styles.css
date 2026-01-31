@@ -74,7 +74,7 @@ margin-top:10px;
 
 /* center container */
 .center{
-  width: min(1010px, 92%);
+  width: min(1020px, 92%);
   margin: 0 auto;
 }
 
@@ -93,7 +93,7 @@ border-right:none;
 
 /* left profile */
 .profile-art{
-  height:350px;
+  height:400px;
   background: #fafafa;
 }
 .profile-art img{
