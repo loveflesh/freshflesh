@@ -212,3 +212,53 @@ background: #e10000;
   border: 2px solid #bdbdbd;
   border-radius: 3px;
 }
+
+
+/* 길찾기 테이블 */
+.pages-inner{
+  padding: 10px;
+}
+
+.navtable{
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 12px;
+}
+
+.navtable th,
+.navtable td{
+  border: 1px solid #3b3b3b;
+  padding: 6px 8px;
+  vertical-align: top;
+  background: rgba(255,255,255,0.65);
+}
+
+/* 머리글 */
+.navtable thead th{
+  font-family: "jd";
+  background: rgba(255,255,255,0.8);
+}
+
+/* 왼쪽(페이지) 폭 */
+.navtable .nav-l{
+  width: 120px;   /* 필요하면 110~140 사이로 조절 */
+  word-break: break-word;
+}
+
+/* 오른쪽(설명) */
+.navtable .nav-r{
+  width: auto;
+}
+
+/* 링크 스타일(옛날 감성) */
+.navtable a{
+  color: #0000ee;
+  text-decoration: underline;
+}
+.navtable a:visited{
+  color: #551a8b;
+}
+.navtable a:hover{
+  background: #dcdcdc;
+}
