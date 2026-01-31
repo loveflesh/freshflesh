@@ -1,8 +1,22 @@
-/* old-web vibe */
+@font-face {
+  font-family: "d";
+  src: url("assets/fonts/dust.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "jd";
+  src: url("assets/fonts/BestTen-DOT.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 * { box-sizing: border-box; }
 html, body { height: 100%; margin: 0; }
 body{
-  font-family: "MS PGothic","MS Gothic","Dotum","Gulim",monospace;
+  font-family: "d", "jd";
   font-size: 14px;
   color: #111;
 }
@@ -51,11 +65,14 @@ body{
   color: #e10000;
   font-size: 45px;
   letter-spacing: 1px;
+font-family:"jd";
 margin-bottom:30px;
 margin-top:10px;
 }
 .hero-sub{
   margin-top: 10px;
+font-family:"jd";
+
   color:#e10000;
   font-size: 12px;
 }
