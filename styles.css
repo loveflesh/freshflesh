@@ -40,13 +40,9 @@ body{
 }
 .side-small{ font-size: 11px; color:#333; }
 
-/* main background with red dots */
 .main{
   padding: 16px 18px 28px;
-  background:
-    radial-gradient(circle at 6px 6px, #ff6b6b 1.2px, transparent 1.3px) 0 0/22px 22px,
-    #f6f6f6;
-}
+  background-image:url("/assets/images/bg_dot.png")}
 
 /* title */
 .hero{ text-align: center; margin-top: 8px; }
@@ -64,12 +60,13 @@ body{
 
 /* pill line */
 .pill-line{
-  height: 16px;
-  border: 2px solid #2a2a2a;
+  height: 27px;
+  border: 1px solid #2a2a2a;
   border-radius: 999px;
   background: #f9f9f9;
+display:flex;
+align-items:center;
   margin: 18px auto 18px;
-  width: min(980px, 92%);
 }
 
 /* center container */
@@ -89,13 +86,13 @@ body{
 /* panels */
 .panel{
   background: #fff;
-  border: 2px solid #3b3b3b;
-  box-shadow: 0 0 0 1px #d6d6d6 inset;
+  border: 1px solid #3b3b3b;
+border-right:none;
 }
 
 /* left profile */
 .profile-art{
-  height: 270px;
+  height: 291px;
   background: #fafafa;
 }
 .profile-art img{
@@ -109,7 +106,7 @@ body{
   color: #fff;
   font-size: 11px;
   padding: 6px 8px;
-  border-top: 2px solid #3b3b3b;
+  border-top: 1px solid #3b3b3b;
 }
 
 /* middle stack */
@@ -117,11 +114,12 @@ body{
 .stack-item{ border-bottom: 1px solid #cfcfcf; }
 .stack-item:last-child{ border-bottom: 0; }
 .bar{
-  background: #e10000;
-  color: #fff;
-  font-size: 11px;
-  padding: 6px 8px;
-  border-bottom: 2px solid #3b3b3b;
+background: #e10000;
+    color: #fff;
+    font-size: 11px;
+    padding: 6px 8px;
+    border-top: 1px solid #3b3b3b;
+    border-bottom: 1px solid #3b3b3b;
 }
 .box{
   height: 78px;
@@ -134,7 +132,7 @@ body{
   color:#fff;
   font-size: 11px;
   padding: 6px 8px;
-  border-bottom: 2px solid #3b3b3b;
+  border-bottom: 1px solid #3b3b3b;
 }
 .pages-inner{
   padding: 10px;
