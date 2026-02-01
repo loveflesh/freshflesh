@@ -262,3 +262,71 @@ padding:10px;
 }
 .navtable a:hover{ background: #ffd6d6; }
 .navtable a:visited{ color:#551a8b; }
+
+
+/*동맹*/
+
+/* bottom: 동맹/웹링 */
+.mini-title{
+  font-family: "jd";
+  font-size: 12px;
+  margin-bottom: 6px;
+  color: #111;
+}
+
+.ally-box{
+  border: 1px solid #3b3b3b;
+  background: rgba(255,255,255,0.85);
+  padding: 8px 10px;
+  line-height: 1.5;
+}
+
+.ally-row{
+  margin: 2px 0;
+}
+
+.ally-row.small{
+  font-size: 11px;
+  color: #333;
+}
+
+.ally-tag{
+  color: #e10000;
+  font-family: "jd";
+}
+
+.ally-link{
+  color: #0000ee;
+  text-decoration: underline;
+}
+
+.ally-link:visited{ color:#551a8b; }
+.ally-link:hover{ background:#ffd6d6; }
+
+.ally-sep{
+  color:#666;
+  padding: 0 3px;
+}
+
+/* 배너 스트립 (옛날 느낌: 작고 촘촘하게) */
+.banner-strip{
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.banner{
+  display: inline-block;
+  border: 1px solid #3b3b3b;
+  background: #fff;
+  padding: 2px;
+}
+
+.banner img{
+  display: block;
+  width: 88px;     /* 옛날 배너 느낌 */
+  height: 31px;
+  object-fit: cover;
+  image-rendering: pixelated;
+}
