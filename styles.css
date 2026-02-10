@@ -511,6 +511,7 @@ min-width:0;
   text-decoration: none;
   color: inherit;
   padding: 8px;
+background:#fff;
 }
 
 .post-item:hover{
