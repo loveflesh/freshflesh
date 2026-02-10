@@ -85,9 +85,10 @@ font-family:"jd";
   background: #f9f9f9;
 display:flex;
 align-items:center;
-  margin: 18px auto 40px;
+  margin: 18px auto 35px;
 margin-top:10px;
 }
+
 
 /* center container */
 .center{
