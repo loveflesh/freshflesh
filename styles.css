@@ -428,17 +428,16 @@ padding:10px;
 }
 
 /* LOWER SECTION */
-.lower-section {
+.lower-section{
   display: flex;
   gap: 24px;
-    justify-content: space-between;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 /* LEFT */
 .recent-wrap{
-  display: flex;
-  flex-direction: column;
-  gap: 28px;
+ flex:1;
 }
 
 
@@ -469,11 +468,9 @@ padding:10px;
 }
 
 /* RIGHT */
-.lower-side {
-  width: 256px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.lower-side{
+  width: 260px;     /* 오른쪽 고정 */
+  flex-shrink: 0;
 }
 
 .side-title {
