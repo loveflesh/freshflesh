@@ -429,7 +429,7 @@ padding:10px;
 
 /* LOWER SECTION */
 .lower-section {
-  width: 900px;              /* ← 전체 고정 */
+  width: 900px;      /* ← 위랑 동일 */
   margin: 40px auto;
   display: flex;
   gap: 24px;
@@ -437,7 +437,7 @@ padding:10px;
 
 /* LEFT */
 .recent-wrap {
-  width: 600px;              /* ← 게시글 영역 고정 */
+  width: 620px;              /* ← 게시글 영역 고정 */
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -450,14 +450,14 @@ padding:10px;
 }
 
 .recent-thumb {
-  width: 120px;
-  height: 120px;
+  width: 180px;
+  height: 180px;
   border: 1px solid #000;
   flex-shrink: 0;
 }
 
 .recent-text {
-  width: 460px;              /* 썸네일 제외 */
+  width: calc(100% - 196px);
 }
 
 .recent-title {
@@ -471,7 +471,7 @@ padding:10px;
 
 /* RIGHT */
 .lower-side {
-  width: 260px;
+  width: 256px;
   display: flex;
   flex-direction: column;
   gap: 20px;
