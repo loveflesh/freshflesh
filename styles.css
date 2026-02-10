@@ -500,3 +500,19 @@ padding:10px;
   border-top: 1px dashed #d00;
   margin: 20px 0;
 }
+
+.post-item{
+  display: flex;
+  gap: 16px;
+  padding: 12px;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #3b3b3b;
+  background: #fff;
+  transition: background .15s ease, box-shadow .15s ease;
+}
+
+.post-item:hover{
+  background: #f0f0f0;
+  box-shadow: 2px 2px 0 #e10000;
+}
