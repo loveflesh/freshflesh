@@ -429,10 +429,9 @@ padding:10px;
 
 /* LOWER SECTION */
 .lower-section {
-  width: 900px;      /* ← 위랑 동일 */
-  margin: 40px auto;
   display: flex;
   gap: 24px;
+    justify-content: space-between;
 }
 
 /* LEFT */
