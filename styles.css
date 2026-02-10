@@ -522,7 +522,9 @@ padding:10px;
 }
 
 .post-info{
-  max-width: 420px; /* ← 여기서 폭 고정 */
+  display: flex;
+  flex-direction: column;
+  height: 180px; /* 썸네일 높이랑 맞춤 */
 }
 
 .post-title{
@@ -537,6 +539,8 @@ padding:10px;
 }
 
 .post-meta{
+  margin-top: auto;   /* ⭐ 이게 핵심 */
   font-size: 11px;
   color: #555;
+  text-align: right;  /* 오른쪽 아래 느낌 */
 }
