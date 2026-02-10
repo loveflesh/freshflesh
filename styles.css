@@ -430,14 +430,19 @@ padding:10px;
 /* LOWER SECTION */
 .lower-section{
   display: flex;
-  gap: 24px;
   justify-content: space-between;
   align-items: flex-start;
+  gap: 24px;
+
+  /* ⭐ 이거 중요 */
+  flex-wrap: nowrap;
 }
+
 
 /* LEFT */
 .recent-wrap{
  flex:1;
+min-width:0;
 }
 
 
