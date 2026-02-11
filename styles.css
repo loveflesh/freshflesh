@@ -550,3 +550,39 @@ width:100%;
   color: #555;
   text-align: right;  /* 오른쪽 아래 느낌 */
 }
+
+
+
+/* OWNER BOX */
+.owner-box{
+  border: 1px solid #000;
+  padding: 8px;
+  background: url("assets/images/banner.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* 배너 이미지 */
+.owner-banner{
+  margin-bottom: 6px;
+}
+
+.owner-banner img{
+  width: 100%;
+  height: auto;
+  display: block;
+  image-rendering: pixelated;
+}
+
+/* 링크 텍스트 박스 */
+.owner-link{
+  width: 100%;
+  height: 42px;
+  resize: none;
+  border: 1px solid #000;
+  font-size: 11px;
+  padding: 4px;
+  background: #fff;
+  font-family: "d";
+}
+
